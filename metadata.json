@@ -1,0 +1,6 @@
+{
+  "name": "Community Donation Pool",
+  "description": "A modern, trustworthy community fundraising platform integrated with the Stellar Network (Testnet) and Freighter wallet.",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}

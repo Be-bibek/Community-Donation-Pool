@@ -1,0 +1,70 @@
+@import "tailwindcss";
+
+@theme {
+  --color-background: var(--background);
+  --color-foreground: var(--foreground);
+  --color-card: var(--card);
+  --color-card-foreground: var(--card-foreground);
+  --color-primary: var(--primary);
+  --color-primary-foreground: var(--primary-foreground);
+  --color-secondary: var(--secondary);
+  --color-border: var(--border);
+  --color-muted: var(--muted);
+  --color-muted-foreground: var(--muted-foreground);
+  --color-accent: var(--accent);
+  --color-accent-foreground: var(--accent-foreground);
+  
+  --font-sans: var(--font-sans), ui-sans-serif, system-ui;
+  --font-display: var(--font-display), sans-serif;
+  --font-mono: var(--font-mono), ui-monospace, monospace;
+}
+
+:root {
+  --background: #0c0a09; /* Sleek deep stone-950 background */
+  --foreground: #fafaf9; /* Luminous warm white stone-50 */
+  --card: rgba(28, 25, 23, 0.65); /* Glass surface */
+  --card-foreground: #fafaf9;
+  --primary: #fbbf24; /* Warm glowing amber-400 */
+  --primary-foreground: #0c0a09;
+  --secondary: #1c1917; /* stone-900 surface */
+  --border: rgba(255, 255, 255, 0.1);
+  --muted: rgba(28, 25, 23, 0.4);
+  --muted-foreground: #a8a29e;
+  --accent: #fbbf24;
+  --accent-foreground: #0c0a09;
+  --primary-glow: rgba(251, 191, 36, 0.3);
+}
+
+.dark {
+  --background: #0c0a09;
+  --foreground: #fafaf9;
+  --card: rgba(28, 25, 23, 0.65);
+  --card-foreground: #fafaf9;
+  --primary: #fbbf24;
+  --primary-foreground: #0c0a09;
+  --secondary: #1c1917;
+  --border: rgba(255, 255, 255, 0.1);
+  --muted: rgba(28, 25, 23, 0.4);
+  --muted-foreground: #a8a29e;
+  --accent: #fbbf24;
+  --accent-foreground: #0c0a09;
+  --primary-glow: rgba(251, 191, 36, 0.3);
+}
+
+/* Glass effect class from the design spec */
+.glass {
+  background: rgba(28, 25, 23, 0.65);
+  backdrop-filter: blur(12px);
+  -webkit-backdrop-filter: blur(12px);
+  border: 1px solid rgba(255, 255, 255, 0.1);
+}
+
+.progress-glow {
+  box-shadow: 0 0 20px rgba(251, 191, 36, 0.35);
+}
+
+body {
+  background-color: var(--background);
+  color: var(--foreground);
+  transition: background-color 0.3s ease, color 0.3s ease;
+}
