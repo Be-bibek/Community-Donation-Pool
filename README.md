@@ -2,7 +2,13 @@
 
 A trustworthy, modern, and highly polished crowdfunding web application designed to raise community funds transparently. Integrated with the **Stellar Network (Testnet)** and the modern **Freighter Wallet (Stellar Wallets Kit v2)**, CoFund demonstrates how low-fee, instant-settlement blockchain payments can power real-world humanitarian efforts.
 
-![Home Screen](https://picsum.photos/seed/cofund-banner/1200/600)
+**home screen** 
+
+<img width="767" height="629" alt="image" src="https://github.com/user-attachments/assets/922b519e-9fdd-404a-b0a7-d594d8b7af59" />
+
+**Donor Wall screen** 
+
+<img width="792" height="637" alt="image" src="https://github.com/user-attachments/assets/d760b987-2723-4724-863d-502d8e8f5b83" />
 
 ## 🌟 Overview
 
@@ -64,5 +70,5 @@ npm run start
 ```
 
 ---
-
+![Home Screen](https://picsum.photos/seed/cofund-banner/1200/600)
 Made with Love by **Freighter Dev** ❤️
